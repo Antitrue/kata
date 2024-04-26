@@ -3,24 +3,24 @@
 @font-face {
   font-family: 'TT Lakes';
   src: local('TT Lakes Medium'), local('TTLakes-Medium'),
-    url('kata/Fonts/TTLakes-Medium.woff2') format('woff2'),
-    url('kata/Fonts/TTLakes-Medium.woff') format('woff');
+    url('/Fonts/TTLakes-Medium.woff2') format('woff2'),
+    url('/Fonts/TTLakes-Medium.woff') format('woff');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'TT Lakes';
   src: local('TT Lakes Compressed Black'), local('TTLakesCompressed-Black'),
-    url('kata/Fonts/TTLakesCompressed-Black.woff2') format('woff2'),
-    url('kata/Fonts/TTLakesCompressed-Black.woff') format('woff');
+    url('/Fonts/TTLakesCompressed-Black.woff2') format('woff2'),
+    url('/Fonts/TTLakesCompressed-Black.woff') format('woff');
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'TT Lakes';
   src: local('TT Lakes Condensed Bold'), local('TTLakesCondensed-Bold'),
-    url('kata/Fonts/TTLakesCondensed-Bold.woff2') format('woff2'),
-    url('kata/Fonts/TTLakesCondensed-Bold.woff') format('woff');
+    url('/Fonts/TTLakesCondensed-Bold.woff2') format('woff2'),
+    url('/Fonts/TTLakesCondensed-Bold.woff') format('woff');
   font-weight: 500;
 }
 
@@ -128,13 +128,13 @@ body {
 }
 
 .menu-icon {
-  background-image: url('kata/Img/burgermenu_icon.svg');
+  background-image: url('/Img/burgermenu_icon.svg');
 }
 
 .logo {
   min-width: 96.55px;
   min-height: 50.81px;
-  background-image: url('kata/Img/logo.svg');
+  background-image: url('/Img/logo.svg');
 }
 
 .header__links-list {
@@ -172,23 +172,23 @@ body {
 }
 
 .call-icon {
-  background-image: url('kata/Img/call_icon.svg');
+  background-image: url('/Img/call_icon.svg');
 }
 
 .chat-icon {
-  background-image: url('kata/Img/chat_icon.svg');
+  background-image: url('/Img/chat_icon.svg');
 }
 
 .profile-icon {
-  background-image: url('kata/Img/profile_icon.svg');
+  background-image: url('/Img/profile_icon.svg');
 }
 
 .repair-icon {
-  background-image: url('kata/Img/repair_icon.svg');
+  background-image: url('/Img/repair_icon.svg');
 }
 
 .status-icon {
-  background-image: url('kata/Img/checkstatus_icon.svg');
+  background-image: url('/Img/checkstatus_icon.svg');
 }
 
 /* Main */
@@ -216,7 +216,7 @@ body {
   left: 0;
   width: 4px;
   height: 40px;
-  background-image: url('kata/Img/title-highlight.svg');
+  background-image: url('/Img/title-highlight.svg');
   background-repeat: no-repeat;
 }
 
@@ -303,7 +303,7 @@ body {
   margin-bottom: 24px;
   padding-left: 25px;
   border: none;
-  background-image: url('kata/Img/arrow.svg');
+  background-image: url('/Img/arrow.svg');
   background-repeat: no-repeat;
   background-position: left;
   background-color: transparent;
